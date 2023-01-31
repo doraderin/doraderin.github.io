@@ -12,7 +12,7 @@ Table of contents
 02. reset
 03. global styles
 04. header
-05. welcome
+05. welcomef
 06. features
 07. team
 08. pricing
@@ -81,7 +81,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  background-color: #0a1447;
+  background-color: #27255D;
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -113,13 +113,13 @@ body {
 }
 
 ::selection {
-  background: #ff589e;
-  color: #0a1447;
+  background: #8D9CE9;
+  color: #27255D;
 }
 
 ::-moz-selection {
-  background: #ff589e;
-  color: #fff;
+  background: #8D9CE9;
+  color: #FEFFFF;
 }
 
 .section {
@@ -129,7 +129,7 @@ body {
 }
 
 .section.colored {
-  background: #0a1447;
+  background: #27255D;
 }
 
 .hr {
@@ -137,18 +137,18 @@ body {
   width: 100%;
   height: 1px;
   margin-top: 100px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #FEFFFF;
 }
 
 .left-heading.light .section-title {
-  color: #ffffff;
+  color: #FEFFFF;
 }
 
 .left-heading .soru-title {
   font-weight: 600;
   font-size: 20px;
   line-height: 32px;
-  color: #e30071; /* BUNU PINK YAP */
+  color: #6676CA; /* BUNU PINK YAP */
   letter-spacing: 0.25px;
   margin-bottom: 30px;
   position: relative;
@@ -324,7 +324,7 @@ a.main-button-slider {
   font-size: 20px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #0a1447;
+  background-color: #27255D;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -354,7 +354,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #e30071;
+  background-color: #6676CA;
 }
 
 button.main-button {
@@ -364,7 +364,7 @@ button.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #0a1447;
+  background-color: #27255D;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -377,7 +377,7 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #e30071;
+  background-color:  #6676CA;
 }
 
 
@@ -409,7 +409,7 @@ Lacivert: #0a1447;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   border-radius: 40px;
   min-height: 80px;
-  background: #e30071;
+  background:  #6676CA;
 }
 
 .header-area .main-nav .logo {
@@ -505,7 +505,7 @@ Lacivert: #0a1447;
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #0a1447;
+  background-color: #27255D;
   display: block;
   position: absolute;
   width: 30px;
@@ -552,7 +552,7 @@ Lacivert: #0a1447;
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #0a1447;
+  background-color: #27255D;
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -560,7 +560,7 @@ Lacivert: #0a1447;
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #0a1447;
+  background-color: #27255D;
 }
 
 .header-area.header-sticky {
@@ -576,7 +576,7 @@ Lacivert: #0a1447;
 }
 
 .header-area.header-sticky .nav li a {
-  color: #0a1447;
+  color: #27255D;
 }
 
 .header-area.header-sticky .nav li a.active {
@@ -793,7 +793,7 @@ Features physical appearance
 }
 
 .features-small-item:hover .icon {
-  background-color: #e30071;
+  background-color: #6676CA;
 }
 
 .features-small-item .icon {
@@ -895,7 +895,7 @@ parallax & home seperator
 
 .mini .mini-content .info {
   text-align: center;
-  color: #e30071;
+  color: #6676CA;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -1243,7 +1243,7 @@ pricing
 --------------------------------------------- 
 */
 .pricing-item {
-  background: #e30071;
+  background: #6676CA;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   margin-bottom: 30px;
@@ -1262,7 +1262,7 @@ pricing
 }
 
 .pricing-item.active .pricing-body .price-wrapper {
-  background-color: #ff589e;
+  background-color: #8D9CE9;
 }
 
 .pricing-item.active .pricing-body .price-wrapper .currency {
@@ -1317,7 +1317,7 @@ pricing
   height: 47px;
   font-weight: 500;
   font-size: 32px;
-  color: #e30071;
+  color:  #6676CA;
   position: relative;
   top: -1px;
 }
@@ -1331,7 +1331,7 @@ pricing
 .pricing-item .pricing-body .price-wrapper .period {
   font-weight: 400;
   font-size: 14px;
-  color: #e30071;
+  color:  #6676CA;
   display: block;
   letter-spacing: 0.88px;
 }
@@ -1399,7 +1399,7 @@ blog
 }
 
 .blog-post-thumb h3 a:hover {
-  color: #e30071;
+  color:  #6676CA;
 }
 
 .blog-post-thumb .text {
@@ -1522,7 +1522,7 @@ footer .social li a {
 }
 
 footer .social li a:hover {
-  background-color: #e30071;
+  background-color:  #6676CA;
   color: #fff;
 }
 
@@ -1558,7 +1558,7 @@ preloader
 */
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(135deg, #0a1447 0%, #e30071 100%);
+  background-image: linear-gradient(135deg, #0a1447 0%,  #6676CA 100%);
   left: 0;
   right: 0;
   top: 0;
