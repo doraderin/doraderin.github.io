@@ -818,6 +818,10 @@ Features physical appearance
   color: #fff;
 }
 
+.features-small-item .icon img {
+  padding-top:14px
+}
+
 .features-small-item .features-title {
   font-weight: 700;
   font-size: 18px;
