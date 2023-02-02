@@ -1529,6 +1529,7 @@ footer .social li a:hover {
   background-color:  #6676CA;
   color: #fff;
 }
+footer .social li a i.fa{padding-top: 12px;}
 
 footer .copyright {
   text-align: center;
